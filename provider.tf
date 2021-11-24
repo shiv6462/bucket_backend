@@ -1,7 +1,7 @@
 terraform {
   required_version = ">= 0.12"
     backend "gcs" {
-bucket = "my_backend_bucket"
+bucket = "my_backend_bucket123"
 prefix = "network-tfstate"
 credentials = "my-first-project-331921-6472d80132f0.json"
 }
