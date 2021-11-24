@@ -1,9 +1,9 @@
 terraform {
   required_version = ">= 0.12"
   backend "gcs" {
-bucket = "terraremote-bucket85558"
+bucket = "my_backend_bucket"
 prefix = "network-tfstate"
-credentials = "calcium-post-282611-3d088c407491.json"
+credentials = "my-first-project-331921-6472d80132f0.json"
 }
 }
 provider "google" {
